@@ -37,7 +37,7 @@ const HomePage = () => {
         </div>
         
         <div className ="bg-[#e2cbb1] w-screen px-10">
-            <div className = "grid grid-col pt-20">
+            <div className = "gridbox">
                 <div  className = "clearfix ">
                     <img className="mun_image_left"src={MUN}/>
                     <p className='subtitletext'> About MUN and GMUNC </p>

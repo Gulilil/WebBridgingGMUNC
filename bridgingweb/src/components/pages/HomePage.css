@@ -34,6 +34,7 @@
     float : left;
     margin-left: 50px;
     margin-right: 50px;
+    border-radius: 30px;
 }
 
 .mun_image_right{
@@ -42,6 +43,7 @@
     float : right;
     margin-left: 50px;
     margin-right: 50px;
+    border-radius: 30px;
 }
 
 .clearfix::after{
@@ -116,4 +118,13 @@
     font-weight: 550;
     margin-top: 7px;
     text-align: right;
+}
+
+.gridbox{
+    display:grid;
+    column-gap:20px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
 }
