@@ -1,0 +1,79 @@
+
+.background{
+    background-color: #e2cbb1;
+    padding-bottom:10px;
+}
+
+.divisionbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:65%;
+    padding:15px;
+    background-color: #c18d56 ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    margin-bottom:30px;
+    border-radius: 10px;
+}
+
+.divnamebox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    padding:5px;
+    background-color:#D7a775 ;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divname{
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.committeebox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D7a775;
+    padding:20px;
+    height: 550px;
+    width : 29%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.committeephoto{
+    background-color: white;
+    border-radius: 70px;
+    height:325px;
+    width:275px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
+}
+
+.rowcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.biggerprofiletext{
+    font-size: 23px;
+    font-weight:750;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallerprofiletext{
+    font-size: 18px;
+    font-weight:600;
+    margin-left: auto;
+    margin-right: auto;
+}
