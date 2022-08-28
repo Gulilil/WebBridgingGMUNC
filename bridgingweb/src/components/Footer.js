@@ -15,10 +15,10 @@ const Footer = () => {
                     Siliwangi, Coblong, Kota Bandung, Jawa Barat, 40132{' '}
                 </p>
                 <a
-                    className='flex justify-center py-4'
+                    className='flex justify-center'
                     href='https://www.instagram.com/gmunc_itb/'
                 >
-                    <img src={ig_logo} alt='wave' className='h-6' />
+                    <img src={ig_logo} alt='wave' className='h-10' />
                 </a>
                 <p className='flex justify-center font-bold'>
                     {' '}

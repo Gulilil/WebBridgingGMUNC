@@ -53,7 +53,7 @@ const HomePage = () => {
                     <div className='flex gap-12 mb-6'>
                         <img alt='mun logo' className='w-[250px]' src={MUN} />
                         <div>
-                            <p className='text-4xl font-bold mb-3'>
+                            <p className='text-4xl  mb-3 font-gbDisplay'>
                                 {' '}
                                 About MUN and GMUNC{' '}
                             </p>
@@ -83,9 +83,9 @@ const HomePage = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='mb-3 flex'>
+                    <div className='mb-3 flex mt-20'>
                         <div>
-                            <p className='text-4xl font-bold mb-3 text-right'>
+                            <p className='text-4xl mb-3 text-right font-gbDisplay'>
                                 {' '}
                                 GMUNC's Activities{' '}
                             </p>
@@ -166,11 +166,11 @@ const HomePage = () => {
 
                     <div className='mb-3 flex'>
                         <div>
-                            <p className='subsubtitletextright'>
+                            <p className='text-2xl font-semibold mb-1 text-right'>
                                 {' '}
                                 Joint Simulation{' '}
                             </p>
-                            <p className='alignright'>
+                            <p className='text-right'>
                                 {' '}
                                 As a Model United Nations club, GMUNC always try
                                 to stay connected with other MUN clubs from
@@ -184,14 +184,11 @@ const HomePage = () => {
                                 University, and many more.{' '}
                             </p>
                         </div>
-                        <div className='w-[250px]'>
-                            <img
-                                style={{ width: '300px' }}
-                                className='w-[300px] bg-contain'
-                                src={JointSim}
-                                alt=''
-                            />
-                        </div>
+                        <img
+                            className='w-[250px] ml-7 rounded-lg shadow'
+                            src={JointSim}
+                            alt=''
+                        />   
                     </div>
                 </div>
             </div>
