@@ -4,9 +4,7 @@
     background-size:cover;
     text-align: center;
     background-repeat: no-repeat;
-    filter: blur(10px);
-    filter: grayscale(1);
-    filter: saturate(1.5);
+    filter: blur(0.5px) grayscale(0.3) saturate(1.5);
     width: 100%;
     padding:15%;
     top: 0;

@@ -39,7 +39,7 @@ import dummy from '../../assets/Committee Photos/dummy.jpg';
 
 const Committee = () => {
     return (
-        <div className='background text-'>
+        <div className='background text-brown'>
             <div className='documphoto'>
 
             </div>

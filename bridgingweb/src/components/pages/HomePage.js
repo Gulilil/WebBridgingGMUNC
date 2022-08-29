@@ -20,7 +20,7 @@ const HomePage = () => {
                     backgroundImage: `url("${mun_bg}")`,
                 }}
             >
-                <div className='bg-sand-light px-16 py-14'>
+                <div className='bg-sand-light px-16 py-14 drop-shadow-2xl'>
                     <img
                         onClick={() => setHidden((s) => !s)}
                         class='w-[200px] mx-auto mb-5'
@@ -48,7 +48,7 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <div className='bg-sand-light w-full px-10 py-12'>
+            <div className='bg-sand-light w-full px-10 py-12 drop-shadow-2xl'>
                 <div className='w-[1024px] mx-auto'>
                     <div className='flex gap-12 mb-6'>
                         <img alt='mun logo' className='w-[250px]' src={MUN} />

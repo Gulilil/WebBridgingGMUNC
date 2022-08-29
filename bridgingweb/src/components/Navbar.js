@@ -19,20 +19,20 @@ const Navbar = () => {
             {/* Pages */}
             <div className='flex flex-grow justify-end'>
                 <Link to='/episodes'>
-                    <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded hover:text-[#ffffff] '>
-                        <p className='text-2xl font-bold'>Episodes</p>
+                    <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded text-brown hover:text-[#ffffff] '>
+                        <p className='text-2xl font-bold '>Episodes</p>
                     </button>
                 </Link>
 
                 <Link to='/quests'>
-                    <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded hover:text-[#ffffff] '>
-                        <p className='text-2xl font-bold'>Quests</p>
+                    <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded text-brown hover:text-[#ffffff] '>
+                        <p className='text-2xl font-bold '>Quests</p>
                     </button>
                 </Link>
 
                 <Link to='/committee'>
-                    <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded hover:text-[#ffffff] '>
-                        <p className='text-2xl font-bold '>Committee</p>
+                    <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded text-brown hover:text-[#ffffff] '>
+                        <p className='text-2xl font-bold'>Committee</p>
                     </button>
                 </Link>
             </div>
