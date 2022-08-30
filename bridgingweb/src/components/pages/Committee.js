@@ -39,15 +39,16 @@ import dummy from '../../assets/Committee Photos/dummy.jpg';
 
 const Committee = () => {
     return (
-        <div className='background text-brown'>
-            <div className='documphoto'>
-
-            </div>
-            <p className='flex justify-center text-6xl pt-20 font-bold font-gbDisplay'>
+        <div className='background text-brown min-h-screen'>
+            <div className='documphoto'></div>
+            <p className='flex text-4xl justify-center md:text-6xl pt-20 font-bold font-gbDisplay'>
                 {' '}
                 OUR COMMITTEE{' '}
             </p>
-            <div className='divisionbox drop-shadow-2xl'>
+            <div className='mt-8 w-11/12 mx-auto'>
+                <DivisionBoard />
+            </div>
+            {/* <div className='divisionbox drop-shadow-2xl'>
                 <div className='divnamebox drop-shadow-lg'>
                     <p className='divname font-gbDisplay'> DIRECTOR </p>
                 </div>
@@ -79,8 +80,9 @@ const Committee = () => {
 
             <div className='divisionbox drop-shadow-2xl'>
                 <div className='divnamebox drop-shadow-lg'>
-                    <p className='divname font-gbDisplay'> 
-                    SECRETARIES-GENERAL </p>
+                    <p className='divname font-gbDisplay'>
+                        SECRETARIES-GENERAL{' '}
+                    </p>
                 </div>
                 <div className='rowcontainer'>
                     <div className='committeebox drop-shadow-lg'>
@@ -249,7 +251,7 @@ const Committee = () => {
                         <p className='biggerprofiletext'> M. Alyosha </p>
                         <p className='biggerprofiletext'> Rizqullah Akbar</p>
                         <p className='nimtext font-gbDisplay'> 19021100 </p>
-                        <p> International Business  </p>
+                        <p> International Business </p>
                     </div>
                 </div>
             </div>
@@ -316,7 +318,10 @@ const Committee = () => {
 
             <div className='divisionbox drop-shadow-2xl'>
                 <div className='divnamebox drop-shadow-lg'>
-                    <p className='divname font-gbDisplay'> OPS-IT AND DOCUMENTATION </p>
+                    <p className='divname font-gbDisplay'>
+                        {' '}
+                        OPS-IT AND DOCUMENTATION{' '}
+                    </p>
                 </div>
                 <div className='rowcontainer'>
                     <div className='committeebox drop-shadow-lg'>
@@ -385,7 +390,10 @@ const Committee = () => {
 
             <div className='divisionbox drop-shadow-2xl'>
                 <div className='divnamebox drop-shadow-lg'>
-                    <p className='divname font-gbDisplay'> CREATIVE AND PUBLICATION </p>
+                    <p className='divname font-gbDisplay'>
+                        {' '}
+                        CREATIVE AND PUBLICATION{' '}
+                    </p>
                 </div>
                 <div className='rowcontainer'>
                     <div className='committeebox drop-shadow-lg'>
@@ -433,6 +441,43 @@ const Committee = () => {
                         <p className='nimtext font-gbDisplay'> 10721008 </p>
                         <p> Pharmaceutical Science </p>
                         <p> and Technology </p>
+                    </div>
+                </div>
+            </div> */}
+        </div>
+    );
+};
+
+const DivisionBoard = () => {
+    return (
+        <div className='bg-[#C18D56] shadow-lg flex flex-col items-center px-6 pt-6 pb-10 gap-6 rounded'>
+            <h3 className='font-gbDisplay py-3 px-4 text-4xl bg-sand-medium shadow-sm'>
+                Director
+            </h3>
+            <div className='flex flex-col gap-8 w-full'>
+                <CommiteeCard />
+            </div>
+        </div>
+    );
+};
+
+const CommiteeCard = () => {
+    return (
+        <div className='w-full flex flex-col py-6 px-5 gap-4 shadow-sm bg-sand-medium rounded-sm'>
+            <div className='flex flex-col gap-2 w-full'>
+                <img
+                    src={OpsIT_Ghalib}
+                    alt='Committee'
+                    className='w-full bg-sand-light shadow-md rounded-sm'
+                />
+                <div className='text-center font-semibold'>
+                    <p className='mb-1 font-bold text-xl'>
+                        Dhafin Ghalib Luqman Hakim
+                    </p>
+                    <p className='text-lg'>Head of OPS-IT</p>
+                    <div className='font-gbDisplay font-normal text-2xl mt-4'>
+                        <p>18221023</p>
+                        <p>STI</p>
                     </div>
                 </div>
             </div>
