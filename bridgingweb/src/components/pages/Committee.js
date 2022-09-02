@@ -12,10 +12,13 @@ import Event_Keisha from '../../assets/Committee Photos/Event_Keisha.png';
 import Event_Marcia from '../../assets/Committee Photos/Event_Marcia.png';
 import Event_Trevanka from '../../assets/Committee Photos/Event_Trevanka.png';
 import Event_Damas from '../../assets/Committee Photos/Events_Damas.png';
+import Event_Marlyane from '../../assets/Committee Photos/Events_Marlyane.png';
 import Event_Anggia from '../../assets/Committee Photos/Event_Anggia.png';
 import Event_Marvin from '../../assets/Committee Photos/Events_Marvin.png';
 import Acads_Alyosha from '../../assets/Committee Photos/Academics_Alyosha.png';
 import Acads_Annisa from '../../assets/Committee Photos/Academics_Annisa.png';
+import Acads_Alia from '../../assets/Committee Photos/Academics_Alia.png';
+import Acads_Disney from '../../assets/Committee Photos/Academics_Disney Jason.png';
 import Acads_Chema from '../../assets/Committee Photos/Academics_Chema.png';
 import CretPub_Atha from '../../assets/Committee Photos/CretPub_Atha.png';
 import CretPub_Haifa from '../../assets/Committee Photos/CretPub_Haifa.png';
@@ -194,7 +197,7 @@ const Committee = () => {
                         <p> Mining Engineering</p>
                     </div>
                     <div className='committeebox drop-shadow-lg'>
-                        <img className='committeephoto' src={dummy} />
+                        <img className='committeephoto' src={Event_Marlyane} />
                         <p className='biggerprofiletext'> Marlyane Faith </p>
                         <p className='biggerprofiletext'> Walangitan </p>
                         <p className='nimtext font-gbDisplay'> 19021035 </p>
@@ -222,13 +225,13 @@ const Committee = () => {
                 </div>
                 <div className='rowcontainer'>
                     <div className='committeebox drop-shadow-lg'>
-                        <img className='committeephoto' src={dummy} />
+                        <img className='committeephoto' src={Acads_Disney} />
                         <p className='biggerprofiletext'> Disney Jason </p>
                         <p className='nimtext font-gbDisplay'> 13621022 </p>
                         <p> Aerospace Engineering </p>
                     </div>
                     <div className='committeebox drop-shadow-lg'>
-                        <img className='committeephoto' src={dummy} />
+                        <img className='committeephoto' src={Acads_Alia} />
                         <p className='biggerprofiletext'> Aurelia Zadira </p>
                         <p className='nimtext font-gbDisplay'> 13121034 </p>
                         <p> Mechanical Engineering </p>
