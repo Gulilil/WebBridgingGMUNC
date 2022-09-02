@@ -5,9 +5,9 @@ import RoutesConfig from './RoutesConfig';
 function App() {
     return (
         <>
-            {/* <Navbar /> */}
+            <Navbar />
             <RoutesConfig />
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }

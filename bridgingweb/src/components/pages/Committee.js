@@ -45,8 +45,10 @@ const Committee = () => {
                 {' '}
                 OUR COMMITTEE{' '}
             </p>
-            <div className='mt-8 w-11/12 mx-auto'>
-                <DivisionBoard />
+            <div className='flex flex-col mt-8 w-11/12 mx-auto gap-10'>
+                {committeeData.map((data, idx) => (
+                    <DivisionBoard {...data} key={`divisonboard-${idx}`} />
+                ))}
             </div>
             {/* <div className='divisionbox drop-shadow-2xl'>
                 <div className='divnamebox drop-shadow-lg'>
@@ -448,36 +450,55 @@ const Committee = () => {
     );
 };
 
-const DivisionBoard = () => {
+const DivisionBoard = ({ division, heads, staff }) => {
     return (
-        <div className='bg-[#C18D56] shadow-lg flex flex-col items-center px-6 pt-6 pb-10 gap-6 rounded'>
+        <div className='bg-[#C18D56] w-full max-w-[1024px] mx-auto shadow-lg flex flex-col items-center px-6 pt-6 pb-10 gap-6 rounded'>
             <h3 className='font-gbDisplay py-3 px-4 text-4xl bg-sand-medium shadow-sm'>
-                Director
+                {division}
             </h3>
-            <div className='flex flex-col gap-8 w-full'>
-                <CommiteeCard />
+            <div className='w-full flex flex-col items-center gap-8'>
+                <div className='flex flex-col justify-center md:flex-row gap-8'>
+                    {heads.map((committee, idx) => (
+                        <CommiteeCard
+                            {...committee}
+                            big={true}
+                            key={`committeehead-${idx}`}
+                        />
+                    ))}
+                </div>
+                <div className='flex flex-col flex-wrap justify-center md:flex-row gap-8'>
+                    {staff.map((committee, idx) => (
+                        <CommiteeCard
+                            {...committee}
+                            big={false}
+                            key={`committeestaff-${idx}`}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     );
 };
 
-const CommiteeCard = () => {
+const CommiteeCard = ({ name, position, nim, major, big, imgSrc }) => {
+    const containerClassName = `w-full flex flex-col py-6 px-5 md:px-8 gap-4 ${
+        big ? 'md:w-[300px]' : 'md:w-[260px]'
+    } shadow-sm bg-sand-medium rounded-sm`;
+
+    const imgClassName = `w-full ${
+        big ? 'md:h-[300px]' : 'md:h-[260px]'
+    } object-cover bg-sand-light shadow-md rounded-sm`;
+
     return (
-        <div className='w-full flex flex-col py-6 px-5 gap-4 shadow-sm bg-sand-medium rounded-sm'>
+        <div className={containerClassName}>
             <div className='flex flex-col gap-2 w-full'>
-                <img
-                    src={OpsIT_Ghalib}
-                    alt='Committee'
-                    className='w-full bg-sand-light shadow-md rounded-sm'
-                />
+                <img src={imgSrc} alt='Committee' className={imgClassName} />
                 <div className='text-center font-semibold'>
-                    <p className='mb-1 font-bold text-xl'>
-                        Dhafin Ghalib Luqman Hakim
-                    </p>
-                    <p className='text-lg'>Head of OPS-IT</p>
+                    <p className='mb-1 p-0   font-bold text-xl'>{name}</p>
+                    <p className='text-lg'>{position}</p>
                     <div className='font-gbDisplay font-normal text-2xl mt-4'>
-                        <p>18221023</p>
-                        <p>STI</p>
+                        <p>{nim}</p>
+                        <p>{major}</p>
                     </div>
                 </div>
             </div>
@@ -486,3 +507,75 @@ const CommiteeCard = () => {
 };
 
 export default Committee;
+
+const committeeData = [
+    {
+        division: 'Directors',
+        heads: [
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+        ],
+        staff: [],
+    },
+    {
+        division: 'OPS-IT AND DOCUMENTATION',
+        heads: [
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+        ],
+        staff: [
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+            {
+                name: 'Dhafin Ghalib Luqman Hakim',
+                position: 'Head of OPS-IT and Documentation',
+                nim: '18221023',
+                major: 'STI',
+                imgSrc: OpsIT_Ghalib,
+            },
+        ],
+    },
+];
