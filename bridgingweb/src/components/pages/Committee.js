@@ -14,9 +14,13 @@ import Event_Trevanka from '../../assets/Committee Photos/Event_Trevanka.png';
 import Event_Damas from '../../assets/Committee Photos/Events_Damas.png';
 import Event_Anggia from '../../assets/Committee Photos/Event_Anggia.png';
 import Event_Marvin from '../../assets/Committee Photos/Events_Marvin.png';
+import Event_Eriezzha from '../../assets/Committee Photos/Events_Eriezzha.png';
+import Event_Marlyane from '../../assets/Committee Photos/Events_Marlyane.png';
 import Acads_Alyosha from '../../assets/Committee Photos/Academics_Alyosha.png';
 import Acads_Annisa from '../../assets/Committee Photos/Academics_Annisa.png';
 import Acads_Chema from '../../assets/Committee Photos/Academics_Chema.png';
+import Acads_Alia from '../../assets/Committee Photos/Academics_Alia.png';
+import Acads_Disney from '../../assets/Committee Photos/Academics_Disney Jason.png';
 import CretPub_Atha from '../../assets/Committee Photos/CretPub_Atha.png';
 import CretPub_Haifa from '../../assets/Committee Photos/CretPub_Haifa.png';
 import CretPub_Zidni from '../../assets/Committee Photos/CretPub_Zidni.png';
@@ -498,6 +502,8 @@ const CommiteeCard = ({ name, position, nim, major, big, imgSrc }) => {
                     <p className='text-lg'>{position}</p>
                     <div className='font-gbDisplay font-normal text-2xl mt-4'>
                         <p>{nim}</p>
+                    </div>
+                    <div className='font-normal text-lg'>
                         <p>{major}</p>
                     </div>
                 </div>
@@ -513,21 +519,216 @@ const committeeData = [
         division: 'Directors',
         heads: [
             {
-                name: 'Dhafin Ghalib Luqman Hakim',
-                position: 'Head of OPS-IT and Documentation',
-                nim: '18221023',
-                major: 'STI',
-                imgSrc: OpsIT_Ghalib,
+                name: 'Kinanti Wening Asih',
+                position: 'Director',
+                nim: '18221044',
+                major: 'Information System and Technology',
+                imgSrc: Dir_Asih,
             },
             {
-                name: 'Dhafin Ghalib Luqman Hakim',
-                position: 'Head of OPS-IT and Documentation',
-                nim: '18221023',
-                major: 'STI',
-                imgSrc: OpsIT_Ghalib,
+                name: 'Gaizka Adilla Zahraini',
+                position: 'Vice Director',
+                nim: '10721099',
+                major: 'Pharmaceutical Science and Technology',
+                imgSrc: ViceDir_Gaizka,
             },
         ],
         staff: [],
+    },
+    {
+        division: 'SECRETARIES-GENERAL',
+        heads: [
+            {
+                name: 'Cherrylia Shafaa Putri',
+                position: 'Secretary',
+                nim: '10721078',
+                major: 'Pharmaceutical Science and Technology',
+                imgSrc: Sec_Cherrylia,
+            },
+            {
+                name: 'Chlara Puspa Amalia',
+                position: 'Treasurer',
+                nim: '10721042',
+                major: 'Pharmaceutical Science and Technology',
+                imgSrc: Trs_Chlara,
+            },
+        ],
+        staff: [ ],
+    },
+    {
+        division: 'EVENT',
+        heads: [
+            {
+                name: 'Yesha Aurellya',
+                position: 'Head of Event',
+                nim: '13021007',
+                major: 'Chemical Engineering',
+                imgSrc: Event_Yesha,
+            },
+        ],
+        staff: [
+            {
+                name: 'Anggia Putri',
+                position: 'Staff',
+                nim: '13321072',
+                major: 'Engineering Physics',
+                imgSrc: Event_Anggia,
+            },
+            {
+                name: 'Damas Rizaladib Syabana',
+                position: 'Staff',
+                nim: '13021040',
+                major: 'Chemical Engineering',
+                imgSrc: Event_Damas,
+            },
+            {
+                name: 'Karen Anne Mary',
+                position: 'Staff',
+                nim: '10821027',
+                major: 'Actuarial Science',
+                imgSrc: Event_Karen,
+            },
+            {
+                name: 'Trevanka Fyovella',
+                position: 'Staff',
+                nim: '19021125',
+                major: 'International Business',
+                imgSrc: Event_Trevanka,
+            },
+            {
+                name: 'Adhima Al Azmy',
+                position: 'Staff',
+                nim: '15121048',
+                major: 'Geological Engineering',
+                imgSrc: Event_Adhima,
+            },
+            {
+                name: 'Marvin Naditya Pratama',
+                position: 'Staff',
+                nim: '13021047',
+                major: 'Chemical Engineering',
+                imgSrc: Event_Marvin,
+            },
+            {
+                name: 'Keisha Maylafaza Salsabila',
+                position: 'Staff',
+                nim: '10121038',
+                major: 'Mathematics',
+                imgSrc: Event_Keisha,
+            },
+            {
+                name: 'Marcia Alana Sjarief',
+                position: 'Staff',
+                nim: '15321017',
+                major: 'Environmental Engineering',
+                imgSrc: Event_Marcia,
+            },
+            {
+                name: 'Eriezzha Arriefqi Hidayat',
+                position: 'Staff',
+                nim: '12121060',
+                major: 'Mining Engineering',
+                imgSrc: Event_Eriezzha,
+            },
+            {
+                name: 'Marlyane Faith Walangitan',
+                position: 'Staff',
+                nim: '19021035',
+                major: 'International Business',
+                imgSrc: Event_Marlyane,
+            },
+        ],
+    },
+    {
+        division: 'ACADEMICS',
+        heads: [
+            {
+                name: 'Raditya Chema',
+                position: 'Head of Academics',
+                nim: '13621005',
+                major: 'Aerospace Engineering',
+                imgSrc: Acads_Chema,
+            },
+        ],
+        staff: [
+            {
+                name: 'Disney Jason',
+                position: 'Staff',
+                nim: '13621022',
+                major: 'Aerospace Engineering',
+                imgSrc: Acads_Disney,
+            },
+            {
+                name: 'Aurelia Zadira',
+                position: 'Staff',
+                nim: '13121034',
+                major: 'Mechanical Engineering',
+                imgSrc: Acads_Alia,
+            },
+            {
+                name: 'Annisa Edi Setiyani',
+                position: 'Staff',
+                nim: '15421121',
+                major: 'Urban and Regional Planning',
+                imgSrc: Acads_Annisa,
+            },
+            {
+                name: 'M. Alyosha Rizqullah Akbar',
+                position: 'Staff',
+                nim: '19021100',
+                major: 'International Business',
+                imgSrc: Acads_Alyosha,
+            },
+        ],
+    },
+    {
+        division: 'HUMAN RESOURCES',
+        heads: [
+            {
+                name: 'Fathiya Amani Shabira',
+                position: 'Head of Human Resources',
+                nim: '13221032',
+                major: 'Electrical Engineering',
+                imgSrc: HR_Fathiya,
+            },
+        ],
+        staff: [
+            {
+                name: 'Athifah Helga Amaranta Daulay',
+                position: 'Staff',
+                nim: '10521075',
+                major: 'Chemistry',
+                imgSrc: HR_Athifah,
+            },
+            {
+                name: 'Nadia Amalia',
+                position: 'Staff',
+                nim: '10621053',
+                major: 'Biology',
+                imgSrc: HR_Nadia,
+            },
+            {
+                name: 'Muhammad Hafizh Ardhanikusumah',
+                position: 'Staff',
+                nim: '15321006',
+                major: 'Environmental Engineering',
+                imgSrc: HR_Hafizh,
+            },
+            {
+                name: 'Aniqa Fayyaza Akbar',
+                position: 'Staff',
+                nim: '18221020',
+                major: 'Information System and Technology',
+                imgSrc: HR_Aniqa,
+            },
+            {
+                name: 'Raisha Amanda Permata Radhi',
+                position: 'Staff',
+                nim: '12521038',
+                major: 'Metallurgical Engineering',
+                imgSrc: HR_Raisha,
+            },
+        ],
     },
     {
         division: 'OPS-IT AND DOCUMENTATION',
@@ -536,45 +737,94 @@ const committeeData = [
                 name: 'Dhafin Ghalib Luqman Hakim',
                 position: 'Head of OPS-IT and Documentation',
                 nim: '18221023',
-                major: 'STI',
-                imgSrc: OpsIT_Ghalib,
-            },
-            {
-                name: 'Dhafin Ghalib Luqman Hakim',
-                position: 'Head of OPS-IT and Documentation',
-                nim: '18221023',
-                major: 'STI',
+                major: 'Information System and Technology',
                 imgSrc: OpsIT_Ghalib,
             },
         ],
         staff: [
             {
-                name: 'Dhafin Ghalib Luqman Hakim',
-                position: 'Head of OPS-IT and Documentation',
-                nim: '18221023',
-                major: 'STI',
-                imgSrc: OpsIT_Ghalib,
+                name: 'Juan Christopher Santoso',
+                position: 'Staff',
+                nim: '13521116',
+                major: 'Informatics Engineering',
+                imgSrc: OpsIT_Juan,
             },
             {
-                name: 'Dhafin Ghalib Luqman Hakim',
-                position: 'Head of OPS-IT and Documentation',
-                nim: '18221023',
-                major: 'STI',
-                imgSrc: OpsIT_Ghalib,
+                name: 'Rinaldy Adin',
+                position: 'Staff',
+                nim: '13521134',
+                major: 'Informatics Engineering',
+                imgSrc: OpsIT_Rinaldy,
             },
             {
-                name: 'Dhafin Ghalib Luqman Hakim',
-                position: 'Head of OPS-IT and Documentation',
-                nim: '18221023',
-                major: 'STI',
-                imgSrc: OpsIT_Ghalib,
+                name: 'Muhammad Fadhlur Rahman Ramadhan',
+                position: 'Staff',
+                nim: '12221066',
+                major: 'Petroleum Engineering',
+                imgSrc: OpsIT_Fadhlur,
             },
             {
-                name: 'Dhafin Ghalib Luqman Hakim',
-                position: 'Head of OPS-IT and Documentation',
-                nim: '18221023',
-                major: 'STI',
-                imgSrc: OpsIT_Ghalib,
+                name: 'Nadhira Ismi Rasulla',
+                position: 'Staff',
+                nim: '10721092',
+                major: 'Pharmaceutical Science and Technology',
+                imgSrc: OpsIT_Nadhira,
+            },
+            {
+                name: 'Muhammad Daffa Fawwas F.',
+                position: 'Staff',
+                nim: '10221040',
+                major: 'Physics',
+                imgSrc: OpsIT_Daffa,
+            },
+            {
+                name: 'Rikiya Kitayama',
+                position: 'Staff',
+                nim: '19021701',
+                major: 'International Business',
+                imgSrc: OpsIT_Rikiya,
+            },
+        ],
+    },
+    {
+        division: 'CREATIVE AND PUBLICATION',
+        heads: [
+            {
+                name: 'M. Zidni Rizqan',
+                position: 'Head of Creative and Publication',
+                nim: '13321058',
+                major: 'Engineering Physics',
+                imgSrc: CretPub_Zidni,
+            },
+        ],
+        staff: [
+            {
+                name: 'Qori Ila Taqiyya Susanto',
+                position: 'Staff',
+                nim: '15421130',
+                major: 'Urban and Regional Planning',
+                imgSrc: CretPub_Qori,
+            },
+            {
+                name: 'Atha Araminta Risbri Yudianto',
+                position: 'Staff',
+                nim: '10721089',
+                major: 'Pharmaceutical Science and Technology',
+                imgSrc: CretPub_Atha,
+            },
+            {
+                name: 'Fayola Tabina Arby',
+                position: 'Staff',
+                nim: '15221013',
+                major: 'Architecture',
+                imgSrc: CretPub_Fayola,
+            },
+            {
+                name: 'Haifa Nurul Karimah',
+                position: 'Staff',
+                nim: '10721008',
+                major: 'Pharmaceutical Science and Technology',
+                imgSrc: CretPub_Haifa,
             },
         ],
     },
