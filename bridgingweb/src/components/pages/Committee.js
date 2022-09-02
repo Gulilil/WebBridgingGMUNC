@@ -14,7 +14,7 @@ import Event_Trevanka from '../../assets/Committee Photos/Event_Trevanka.png';
 import Event_Damas from '../../assets/Committee Photos/Events_Damas.png';
 import Event_Anggia from '../../assets/Committee Photos/Event_Anggia.png';
 import Event_Marvin from '../../assets/Committee Photos/Events_Marvin.png';
-import Event_Eriezzha from '../../assets/Committee Photos/Events_Eriezzha.png';
+import Event_Eriezzha from '../../assets/Committee Photos/Event_Eriezzha.png';
 import Event_Marlyane from '../../assets/Committee Photos/Events_Marlyane.png';
 import Acads_Alyosha from '../../assets/Committee Photos/Academics_Alyosha.png';
 import Acads_Annisa from '../../assets/Committee Photos/Academics_Annisa.png';
