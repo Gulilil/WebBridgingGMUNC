@@ -1,5 +1,6 @@
 import { MdClose } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/Logo_dark.png';
 
 const MobileMenu = ({ open, closeMenu }) => {
     return (
@@ -20,29 +21,30 @@ const MobileMenu = ({ open, closeMenu }) => {
                     width={14}
                     height={14}
                     onClick={() => closeMenu()}
-                    className='absolute top-6 right-6'
+                    className='absolute top-6 right-6 font-bold'
                 />
-                <div className='flex flex-col gap-10 my-7'>
+                <div className='flex flex-col gap-3'>
+                    < img className="w-40" src= {Logo} />
                     <Link to='/'>
-                        <button className='bg-[#D7a775] text-brown '>
+                        <button className='bg-[#D7a775] p-4 w-full rounded-lg text-brown  w-full flex items-start'>
                             <p className='text-2xl font-bold '>Home</p>
                         </button>
                     </Link>
 
                     <Link to='/episodes'>
-                        <button className='bg-[#D7a775] text-brown '>
+                        <button className='bg-[#D7a775] p-4 w-full rounded-lg text-brown  w-full flex items-start'>
                             <p className='text-2xl font-bold '>Episodes</p>
                         </button>
                     </Link>
 
                     <Link to='/quests'>
-                        <button className='bg-[#D7a775] rounded text-brown '>
+                        <button className='bg-[#D7a775] p-4 w-full rounded-lg text-brown  w-full flex items-start'>
                             <p className='text-2xl font-bold '>Quests</p>
                         </button>
                     </Link>
 
                     <Link to='/committee'>
-                        <button className='bg-[#D7a775] rounded text-brown '>
+                        <button className='bg-[#D7a775] p-4 w-full rounded-lg text-brown  w-full flex items-start'>
                             <p className='text-2xl font-bold'>Committee</p>
                         </button>
                     </Link>
