@@ -20,48 +20,34 @@ const HomePage = () => {
                     backgroundImage: `url("${mun_bg}")`,
                 }}
             >
-                <div className='bg-sand-light px-16 py-14 drop-shadow-2xl'>
+                <div className='bg-sand-light w-11/12 lg:w-auto lg:px-16 py-14 flex-col items-center drop-shadow-2xl'>
                     <img
                         onClick={() => setHidden((s) => !s)}
                         class='w-[200px] mx-auto mb-5'
                         src={gmunc_dark}
                         alt=''
                     />
-                    <h1 class='text-7xl font-gbDisplay mt-5'>
+                    <h1 class='text-3xl lg:text-7xl text-center font-gbDisplay mt-5'>
                         {' '}
                         Are you ready?
                     </h1>
-                    {/* {!hidden ? (
-                        <div display={false}>
-                            <p class='subtitletext'> Join Us ! </p>
-                            <p>
-                                {' '}
-                                Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit. Maecenas porttitor congue
-                                massa. Fusce posuere, magna sed pulvinar
-                                ultricies, purus lectus malesuada libero, sit
-                                amet commodo magna eros quis urna.
-                            </p>
-                            <button class='button'>Registration</button>
-                        </div>
-                    ) : null} */}
                 </div>
             </div>
 
             <div className='bg-sand-light w-full px-10 py-12 drop-shadow-2xl'>
-                <div className='w-[1024px] mx-auto'>
-                    <div className='flex gap-12 mb-6'>
+                <div className='lg:w-[1024px] mx-auto'>
+                    <div className='flex gap-12 mb-6 flex-col items-center lg:items-stretch lg:flex-row'>
                         <img alt='mun logo' className='w-[250px]' src={MUN} />
                         <div>
-                            <p className='text-4xl  mb-3 font-gbDisplay'>
+                            <p className='text-4xl text-center lg:text-left mb-3 font-gbDisplay'>
                                 {' '}
                                 About MUN and GMUNC{' '}
                             </p>
-                            <p className='text-2xl font-semibold mb-1'>
+                            <p className='text-2xl font-semibold mt-3 lg:mt-0 mb-1'>
                                 {' '}
                                 Model United Nations (MUN){' '}
                             </p>
-                            <p>
+                            <p className='text-justify lg:text-left'>
                                 Model United Nations, also known as Model UN or
                                 MUN, is an extra-curricular activity in which
                                 students typically roleplay delegates to the
@@ -71,7 +57,7 @@ const HomePage = () => {
                                 {' '}
                                 Ganesha Model United Nations Club (GMUNC){' '}
                             </p>
-                            <p>
+                            <p className='text-justify lg:text-left'>
                                 Established on August 14th, 2021, starting with
                                 our desire to have an experience at Harvard
                                 National MUN 2011, we make our path for being
@@ -83,18 +69,24 @@ const HomePage = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='mb-3 flex mt-20'>
+                    <div className='mb-3 flex mt-20 flex-col items-center lg:items-stretch lg:flex-row'>
                         <div>
-                            <p className='text-4xl mb-3 text-right font-gbDisplay'>
+                            <p className='text-4xl mb-3 mt-5 lg:mt-0 text-center lg:text-right font-gbDisplay'>
                                 {' '}
                                 GMUNC's Activities{' '}
                             </p>
 
-                            <p className='text-2xl font-semibold mb-1 text-right'>
+                            <img
+                                className='w-[250px] mx-auto lg:hidden block lg:ml-7'
+                                alt=''
+                                src={ITBMUN}
+                            />
+
+                            <p className='text-2xl font-semibold mb-1 text-left lg:text-right'>
                                 {' '}
                                 ITBMUN{' '}
                             </p>
-                            <p className='text-right'>
+                            <p className='text-justify lg:text-right'>
                                 {' '}
                                 ITB Model United Nations is the annual MUN
                                 competition held by GMUNC. ITB MUN is the
@@ -111,16 +103,20 @@ const HomePage = () => {
                                 institutions and countries.{' '}
                             </p>
                         </div>
-                        <img className='w-[250px] ml-7' src={ITBMUN} />
+                        <img
+                            className='w-[250px] hidden lg:block ml-7'
+                            alt=''
+                            src={ITBMUN}
+                        />
                     </div>
 
-                    <div className='mb-3 flex'>
+                    <div className='mb-3 mt-5 lg:mt-0 flex flex-col-reverse items-center lg:items-stretch lg:flex-row'>
                         <div>
                             <p className='text-2xl font-semibold mb-1 text-right'>
                                 {' '}
                                 GMUNC Bridging{' '}
                             </p>
-                            <p className='text-right'>
+                            <p className='text-justify lg:text-right'>
                                 {' '}
                                 As the first step for a newcomer of GMUNC, they
                                 got selected through an event called GMUNC
@@ -134,16 +130,20 @@ const HomePage = () => {
                                 congratulating GMUNC new batch members.{' '}
                             </p>
                         </div>
-                        <img className='w-[250px] ml-7' src={gmunc_gradient} />
+                        <img
+                            className='w-[250px] lg:ml-7'
+                            alt=''
+                            src={gmunc_gradient}
+                        />
                     </div>
 
-                    <div className='mb-3 flex'>
-                        <div>
-                            <p className='text-2xl font-semibold mb-1 text-right'>
+                    <div className='mb-3 mt-5 lg:mt-0 flex flex-col-reverse items-center lg:items-stretch lg:flex-row'>
+                        <div className='mt-2 lg:mt-0'>
+                            <p className='text-2xl font-semibold mb-1 text-left lg:text-right'>
                                 {' '}
                                 Public Discussion{' '}
                             </p>
-                            <p className='text-right'>
+                            <p className='text-justify lg:text-right'>
                                 {' '}
                                 World issues always coming every day and
                                 inevitably always makes us wonder and want to
@@ -164,13 +164,13 @@ const HomePage = () => {
                         />
                     </div>
 
-                    <div className='mb-3 flex'>
-                        <div>
+                    <div className='mb-3 mt-5 lg:mt-0 flex flex-col-reverse items-center lg:items-stretch lg:flex-row'>
+                        <div className='mt-2 lg:mt-0'>
                             <p className='text-2xl font-semibold mb-1 text-right'>
                                 {' '}
                                 Joint Simulation{' '}
                             </p>
-                            <p className='text-right'>
+                            <p className='text-justify lg:text-right'>
                                 {' '}
                                 As a Model United Nations club, GMUNC always try
                                 to stay connected with other MUN clubs from
@@ -188,7 +188,7 @@ const HomePage = () => {
                             className='w-[250px] ml-7 rounded-lg shadow'
                             src={JointSim}
                             alt=''
-                        />   
+                        />
                     </div>
                 </div>
             </div>
