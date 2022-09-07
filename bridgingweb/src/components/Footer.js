@@ -31,7 +31,7 @@ const Footer = () => {
                     </p>
                     <a
                         className='flex justify-center py-2'
-                        href='https://www.instagram.com/gmunc_itb/'
+                        href='https://www.instagram.com/gmunc.bridging2022/'
                     >
                         <img src={ig_logo} alt='wave' className='h-12' />
                     </a>
