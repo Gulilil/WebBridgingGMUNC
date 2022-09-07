@@ -140,7 +140,7 @@ const committeeData = [
         staff: [],
     },
     {
-        division: 'SECRETARIES-GENERAL',
+        division: 'GENERAL SECRETARY',
         heads: [
             {
                 name: 'Cherrylia Shafaa Putri',

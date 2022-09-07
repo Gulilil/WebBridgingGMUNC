@@ -58,7 +58,7 @@ const HomePage = () => {
                                 Ganesha Model United Nations Club (GMUNC){' '}
                             </p>
                             <p className='text-justify lg:text-left'>
-                                Established on August 14th, 2021, starting with
+                                Established on August 14th, 2011, starting with
                                 our desire to have an experience at Harvard
                                 National MUN 2011, we make our path for being
                                 the first and only Model United Nations club on
@@ -120,14 +120,11 @@ const HomePage = () => {
                                 {' '}
                                 As the first step for a newcomer of GMUNC, they
                                 got selected through an event called GMUNC
-                                Bridging, or maybe known as PPAB in the general
-                                meaning. On GMUNC Bridging, all newcomers are
+                                Bridging. On GMUNC Bridging, all newcomers are
                                 getting introduced to MUN and GMUNC, after that
                                 they will get selected based on selection
                                 criteria, and lastly will be appointed as GMUNC
-                                new batch member. After bridging, there are
-                                usually funday or celebration party for
-                                congratulating GMUNC new batch members.{' '}
+                                new batch member.{' '}
                             </p>
                         </div>
                         <img
@@ -147,8 +144,7 @@ const HomePage = () => {
                                 {' '}
                                 World issues always coming every day and
                                 inevitably always makes us wonder and want to
-                                discuss the issue. Alongside with Strategic
-                                Studies division's work project, GMUNC has
+                                discuss the issue. GMUNC has
                                 monthly public discussions where everyone could
                                 express their opinion towards the topic and
                                 enhancing their public speaking skills. The
