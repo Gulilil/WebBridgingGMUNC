@@ -5,8 +5,10 @@ import RoutesConfig from './RoutesConfig';
 function App() {
     return (
         <>
-            <Navbar />
-            <RoutesConfig />
+            <div className='flex flex-col min-h-screen'>
+                <Navbar />
+                <RoutesConfig />
+            </div>
             <Footer />
         </>
     );

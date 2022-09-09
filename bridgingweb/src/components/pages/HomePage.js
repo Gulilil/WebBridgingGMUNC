@@ -27,7 +27,7 @@ const HomePage = () => {
                         src={gmunc_dark}
                         alt=''
                     />
-                    <h1 class='text-3xl lg:text-7xl text-center font-gbDisplay mt-5'>
+                    <h1 class='text-4xl md:text-5xl lg:text-7xl text-center font-gbDisplay mt-5'>
                         {' '}
                         Are you ready?
                     </h1>
@@ -144,13 +144,13 @@ const HomePage = () => {
                                 {' '}
                                 World issues always coming every day and
                                 inevitably always makes us wonder and want to
-                                discuss the issue. GMUNC has
-                                monthly public discussions where everyone could
-                                express their opinion towards the topic and
-                                enhancing their public speaking skills. The
-                                result of the discussions is also showed in
-                                infographics that are posted to GMUNC's official
-                                accounts such as Instagram, Linkedin, or LINE.{' '}
+                                discuss the issue. GMUNC has monthly public
+                                discussions where everyone could express their
+                                opinion towards the topic and enhancing their
+                                public speaking skills. The result of the
+                                discussions is also showed in infographics that
+                                are posted to GMUNC's official accounts such as
+                                Instagram, Linkedin, or LINE.{' '}
                             </p>
                         </div>
                         <img

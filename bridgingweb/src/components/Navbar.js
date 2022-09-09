@@ -5,6 +5,7 @@ import { IoSettingsOutline } from 'react-icons/io5';
 import Logo from '../assets/Logo_dark.png';
 import MobileMenu from './MobileMenu';
 import { MdMenu } from 'react-icons/md';
+import NavDropdown from './NavDropwdown';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -51,11 +52,9 @@ const Navbar = () => {
                         </button>
                     </Link>
 
-                    <Link to='/quests'>
-                        <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded text-brown hover:text-[#ffffff] '>
-                            <p className='text-2xl font-bold '>Quests</p>
-                        </button>
-                    </Link>
+                    <NavDropdown>
+                        <p className='text-2xl font-bold '>Quests</p>
+                    </NavDropdown>
 
                     <Link to='/committee'>
                         <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded text-brown hover:text-[#ffffff] '>
