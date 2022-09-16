@@ -49,7 +49,7 @@ const Episode0 = () =>{
                                     <p className='mr-0 ml-auto mt-10'>
                                     <b>Best of luck, and may the odds be ever in your favor.</b>
                                     </p>
-                                    <img className="max-w-[200px] mr-3 ml-auto"src={gmunc_dark}/>
+                                    <img className="max-w-[150px] mr-3 ml-auto mt-3"src={gmunc_dark}/>
                                 </div>
                             </div>
                         </div>
