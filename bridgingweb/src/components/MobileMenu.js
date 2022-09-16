@@ -1,8 +1,9 @@
 import { MdClose } from 'react-icons/md';
 import { Link, useLocation } from 'react-router-dom';
-import NavDropdown from './NavDropwdown';
+import QuestDropdown from './QuestDropdown';
 import Logo from '../assets/Logo_dark.png';
 import { useEffect } from 'react';
+import EpsDropdown from './EpsDropdown';
 
 const MobileMenu = ({ open, closeMenu }) => {
     const loc = useLocation();
@@ -39,15 +40,13 @@ const MobileMenu = ({ open, closeMenu }) => {
                         </button>
                     </Link>
 
-                    <Link to='/episodes'>
-                        <button className='bg-[#D7a775] p-4 w-full rounded-lg text-brown flex items-start'>
-                            <p className='text-2xl font-bold '>Episodes</p>
-                        </button>
-                    </Link>
+                    <EpsDropdown>
+                        <p className='text-2xl font-bold '>Episodes</p>
+                    </EpsDropdown>
 
-                    <NavDropdown>
+                    <QuestDropdown>
                         <p className='text-2xl font-bold '>Quests</p>
-                    </NavDropdown>
+                    </QuestDropdown>
 
                     <Link to='/committee'>
                         <button className='bg-[#D7a775] p-4 w-full rounded-lg text-brown flex items-start'>

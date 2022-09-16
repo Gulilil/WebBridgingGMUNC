@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useRef, useState, useEffect } from 'react';
 import { MdArrowDropDown } from 'react-icons/md';
 
-const NavDropdown = ({ children }) => {
+const EpsDropdown = ({ children }) => {
     const [open, setOpen] = useState(false);
 
     const ref = useRef(null);
@@ -38,7 +38,7 @@ const NavDropdown = ({ children }) => {
                 {children}
                 <MdArrowDropDown size={28} />
             </button>
-            <NavDropdownMenu
+            <EpsDropdownMenu
                 open={open}
                 close={() => {
                     setOpen(false);
@@ -48,7 +48,7 @@ const NavDropdown = ({ children }) => {
     );
 };
 
-const NavDropdownMenu = ({ open, close }) => {
+const EpsDropdownMenu = ({ open, close }) => {
     return (
         <div
             style={{ display: open ? 'block' : 'none' }}
@@ -60,11 +60,11 @@ const NavDropdownMenu = ({ open, close }) => {
             >
                 <li>
                     <Link
-                        to='/quests/quest0'
+                        to='/episodes/episode0'
                         className='block text-xl font-semibold px-4 py-4 hover:bg-[#b3541e] hover:text-white '
                         onClick={close}
                     >
-                        Quest 0
+                        Episode 0
                     </Link>
                 </li>
             </ul>
@@ -72,4 +72,4 @@ const NavDropdownMenu = ({ open, close }) => {
     );
 };
 
-export default NavDropdown;
+export default EpsDropdown;

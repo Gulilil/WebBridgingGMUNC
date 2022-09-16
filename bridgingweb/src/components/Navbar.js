@@ -5,7 +5,8 @@ import { IoSettingsOutline } from 'react-icons/io5';
 import Logo from '../assets/Logo_dark.png';
 import MobileMenu from './MobileMenu';
 import { MdMenu } from 'react-icons/md';
-import NavDropdown from './NavDropwdown';
+import EpsDropdown from './EpsDropdown';
+import QuestDropdown from './QuestDropdown';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -46,15 +47,12 @@ const Navbar = () => {
 
                 {/* Pages */}
                 <div className='flex-grow justify-end hidden lg:flex'>
-                    <Link to='/episodes'>
-                        <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded text-brown hover:text-[#ffffff] '>
-                            <p className='text-2xl font-bold '>Episodes</p>
-                        </button>
-                    </Link>
-
-                    <NavDropdown>
+                    <EpsDropdown>
+                        <p className='text-2xl font-bold '>Episodes</p>
+                    </EpsDropdown>
+                    <QuestDropdown>
                         <p className='text-2xl font-bold '>Quests</p>
-                    </NavDropdown>
+                    </QuestDropdown>
 
                     <Link to='/committee'>
                         <button className='bg-[#D7a775] p-7 hover:bg-[#b3541e] rounded text-brown hover:text-[#ffffff] '>
