@@ -9,7 +9,7 @@ const Episode0 = () =>{
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height : "1000px",
+                    height : "100%",
                     padding: '4px',
                     backgroundImage: `url("${bg}")`,
                     backgroundRepeat: 'no-repeat',
