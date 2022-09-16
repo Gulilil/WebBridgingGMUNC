@@ -3,13 +3,13 @@ import bg from '../../../assets/Hunger Games/Episode0.jpg';
 
 const Episode0 = () =>{
     return (
-        <div className='text-brown relative justify mb-1'>
+        <div className='text-brown relative justify mb-1 h-full'>
             <div
+                className='h-full'
                 style={{
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height : "100%",
                     padding: '4px',
                     backgroundImage: `url("${bg}")`,
                     backgroundRepeat: 'no-repeat',
