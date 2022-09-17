@@ -16,6 +16,7 @@ const MobileMenu = ({ open, closeMenu }) => {
         <div className='lg:hidden text-brown text-xl'>
             <div
                 onTouchStart={closeMenu}
+                onClick={closeMenu}
                 style={{
                     opacity: open ? '0.3' : '0',
                     zIndex: open ? '9' : '-1',

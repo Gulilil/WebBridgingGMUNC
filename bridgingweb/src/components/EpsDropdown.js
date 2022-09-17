@@ -5,6 +5,10 @@ import { MdArrowDropDown } from 'react-icons/md';
 const EpsDropdown = ({ children }) => {
     const [open, setOpen] = useState(false);
 
+    useEffect(() => {
+        window.addEventListener('resize', () => setOpen(false));
+    });
+
     const ref = useRef(null);
 
     useEffect(() => {
@@ -52,7 +56,7 @@ const EpsDropdownMenu = ({ open, close }) => {
     return (
         <div
             style={{ display: open ? 'block' : 'none' }}
-            className='md:absolute w-full md:bg-sand-medium md:text-brown md:shadow-md rounded-b'
+            className='lg:absolute w-full lg:bg-sand-medium lg:text-brown lg:shadow-md rounded-b'
         >
             <ul
                 className='text-sm pl-4 lg:pl-0'
@@ -65,6 +69,15 @@ const EpsDropdownMenu = ({ open, close }) => {
                         onClick={close}
                     >
                         Episode 0
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to='/episodes/episode1'
+                        className='block text-xl font-semibold px-4 py-4 hover:bg-[#b3541e] hover:text-white '
+                        onClick={close}
+                    >
+                        Episode 1
                     </Link>
                 </li>
             </ul>
