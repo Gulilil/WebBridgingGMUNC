@@ -1,5 +1,5 @@
 import gmunc_dark from '../../../assets/Logo_dark.png';
-import bg from '../../../assets/Hunger Games/Episode0_1.jpg';
+import bg from '../../../assets/Hunger Games/Episode1.jpg';
 
 const Episode0 = () => {
     return (
