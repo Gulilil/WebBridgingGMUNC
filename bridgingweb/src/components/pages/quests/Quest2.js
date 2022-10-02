@@ -1,5 +1,5 @@
 import gmunc_dark from '../../../assets/Logo_dark.png';
-import imgbg from '../../../assets/Hunger Games/Quest1.jpg';
+import imgbg from '../../../assets/Hunger Games/Quest2.jpg';
 
 const Quest0 = () => {
     return (
@@ -21,7 +21,7 @@ const Quest0 = () => {
                     />
                     <h1 class='text-4xl md:text-5xl lg:text-7xl text-center font-gbDisplay mt-5'>
                         {' '}
-                        Quest 1
+                        Quest 2
                     </h1>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const Quest0 = () => {
                                     <br />
                                     <li>
                                         The naming format will be{' '}
-                                        <b>Full Name_NIM_ResumeDay1</b>, the
+                                        <b>Full Name_NIM_ResumeDay2</b>, the
                                         file should be submitted in pdf format.
                                     </li>
                                     <br />
@@ -72,15 +72,10 @@ const Quest0 = () => {
                                                 need to be good at research;
                                             </li>
                                             <li className='mb-2'>
-                                                Explain the DIVE method and each
-                                                of its components;
+                                                Explain diplomacy;
                                             </li>
                                             <li className='mb-2'>
-                                                Explain why a good speech is
-                                                important, what are the best
-                                                methods of speech, and how to
-                                                get attention from your
-                                                audience;
+                                                Explain negotiation and methos of negotiation;
                                             </li>
                                             <li className='mb-2'>
                                                 How, in your personal opinion,
@@ -94,7 +89,7 @@ const Quest0 = () => {
                                         The deadline for this task will be on{' '}
                                         {''}
                                         <b>
-                                            Wednesday, 21th September 2022,
+                                            Wednesday, 5th October 2022,
                                             23:59.
                                         </b>
                                     </li>
@@ -121,7 +116,7 @@ const Quest0 = () => {
             <div className='flex flex-col mt-8 w-11/12 mx-auto gap-10'>
                 <div className='bg-[#C18D56] w-full max-w-[1024px] mx-auto shadow-lg flex flex-col items-center px-8 pt-6 pb-10 gap-6 rounded mb-10'>
                     <h3 className='font-gbDisplay py-3 px-4 text-4xl bg-sand-medium shadow-sm'>
-                        SUB-DISTRICTS INTERVIEW
+                        GMUNC MEMBERS INTERVIEW
                     </h3>
                     <div className='w-full flex flex-col items-center gap-8'>
                         <div className='w-5/6 flex flex-col justify-center md:flex-row gap-8'>
@@ -133,43 +128,34 @@ const Quest0 = () => {
                                 <ol className='list-decimal ml-4'>
                                     <li>
                                         Ca-GMUNC 2022 must carry out interviews
+                                        with GMUNC Members
                                         in order to get to know each other
                                         better, with the duration of 
-                                        <b> September, Friday the 17th</b> to{' '}
+                                        <b> October, Sunday the 2nd</b> to{' '}
                                         <b>
-                                            September, Friday the 30th 2022 on
+                                            October, Sunday the 23rd 2022 on
                                             23.59 WIB.
                                         </b>
                                     </li>
                                     <br />
                                     <li>
                                         You <b>must</b> interview{' '}
-                                        <b>every Sub-Districts</b>
-                                        of <b>your District</b> group. For
-                                        example, if you are from District 1 and
-                                        Sub-District 1, you must interview
-                                        everyone in Sub-District 1 as well as
-                                        everyone from the other two
-                                        Sub-Districts. Therefore, the{' '}
-                                        <b>
-                                            total number of interviewees you
-                                            must gather by the deadline is the
-                                            total number of Tributes in your
-                                            District.
-                                        </b>
+                                        <b>8 different GMUNC Member</b>
+                                        of the batch 2020 or 2021 that is
+                                        listed in the sheets that will be sent 
+                                        below and in Ca-GMUNC group.
                                     </li>
                                     <br />
                                     <li>
-                                        The interview should be done with your
-                                        other Sub-District members as well, and
-                                        is encouraged to be held <b>offline.</b>{' '}
+                                        The interview should be done with maximum
+                                        2 GMUNC Member and minimum 5 Ca-GMUNC members
+                                        for one interview and is <b> encouraged </b> 
+                                        to be held <b>offline.</b>{' '}
                                         If any of the Tributes are unable to
                                         join because of urgent reasons (ex.
                                         illness), they may join via <b>Zoom,</b>{' '}
                                         making the interview session a hybrid
-                                        one. The
-                                        <b>maximum number</b> of sub-districts
-                                        in an interview session is <b>two.</b>
+                                        one.
                                     </li>
                                     <br />
                                     <li>
@@ -190,9 +176,8 @@ const Quest0 = () => {
                                                         joining GMUNC?
                                                     </li>
                                                     <li>
-                                                        Which GMUNC staff
-                                                        division would you like
-                                                        to enter?
+                                                        What is the best thing 
+                                                        you experienced in GMUNC?
                                                     </li>
                                                 </ol>
                                             </li>
@@ -200,11 +185,8 @@ const Quest0 = () => {
                                                 Non-specific questions:
                                                 <ol className='list-[lower-roman] ml-5 flex flex-col gap-2'>
                                                     <li>
-                                                        Every member must ask
-                                                        two additional questions
-                                                        that will be answered by
-                                                        the other members
-                                                        present in the meeting.
+                                                        Every Ca-GMUNC must ask two additional questions 
+                                                        that will be answered by the GMUNC member present in the meeting.
                                                     </li>
                                                     <li>
                                                         The questions are left
@@ -230,7 +212,7 @@ const Quest0 = () => {
                                     <br />
                                     <li>
                                         It is <b>highly encouraged</b> that
-                                        Tributes spend at least{' '}
+                                        Tributes and GMUNC Members spend at least{' '}
                                         <b>30 minutes</b> together in the
                                         interview session.
                                     </li>
@@ -280,6 +262,21 @@ const Quest0 = () => {
                                         >
                                             here
                                         </a>
+
+                                    </li>
+                                    <br/>
+                                    <li>
+                                        The list of GMUNC Members to interview 
+                                        can be seen on {' '}
+                                        <a
+                                            href='https://www.bit.ly/GMUNCMembersList'
+                                            rel='noreferrer'
+                                            target='_blank'
+                                            className='inline font-semibold hover:underline'
+                                        >
+                                            bit.ly/GMUNCMembersList
+                                        </a>
+                                        
                                     </li>
                                 </ol>
                             </div>
@@ -296,92 +293,7 @@ const Quest0 = () => {
                     </SubmitButton>
                 </div>
             </div>
-            <div className='flex flex-col mt-8 w-11/12 mx-auto gap-10'>
-                <div className='bg-[#C18D56] w-full max-w-[1024px] mx-auto shadow-lg flex flex-col items-center px-8 pt-6 pb-10 gap-6 rounded mb-10'>
-                    <h3 className='font-gbDisplay py-3 px-4 text-4xl bg-sand-medium shadow-sm'>
-                        ARGUMENTATIVE ESSAY
-                    </h3>
-                    <div className='w-full flex flex-col items-center gap-8'>
-                        <div className='w-5/6 flex flex-col justify-center md:flex-row gap-8'>
-                            <div
-                                className={
-                                    'w-full flex flex-col py-6 px-5 md:px-8 gap-4 text-base md:text-xl shadow-sm bg-sand-medium rounded-sm'
-                                }
-                            >
-                                <p>
-                                    An argumentative essay is a piece of writing
-                                    that uses factual evidence and logical
-                                    support to convince the reader of a certain
-                                    way of thinking. Although many types of
-                                    essays aim at persuading the reader to
-                                    believe a specific point of view,
-                                    argumentative essays rely heavily on hard
-                                    evidence, drawing on other studies and
-                                    sources to prove their argument is best.{' '}
-                                </p>
-                                <ol className='list-decimal ml-4'>
-                                    <li>
-                                        he requirements for this essay are as
-                                        follows:
-                                        <ol className='list-[lower-latin] ml-5 flex flex-col gap-2'>
-                                            <li>
-                                                The topic is an international
-                                                issue of your choosing.
-                                            </li>
-                                            <li>
-                                                The essay must contain three
-                                                parts: a claim or thesis,
-                                                evidence/support/proofs, and
-                                                conclusion. Tributes are free to
-                                                add to these parts.
-                                            </li>
-                                        </ol>
-                                    </li>
-                                    <br />
-                                    <li>
-                                        Tributes are highly encouraged to use
-                                        the DIVE method.
-                                    </li>
-                                    <br />
-                                    <li>
-                                        The minimum word count is 400 words.
-                                    </li>
-                                    <br />
-                                    <li>The file should be posted in Medium</li>
-                                    <li>
-                                        The deadline for this task will be on{' '}
-                                        <b>
-                                            Saturday, 24th September 2022, 23:59
-                                        </b>
-                                    </li>
-                                    <br />
-                                    <li>
-                                        If you have questions, please fill the
-                                        spreadsheet FAQ Task{' '}
-                                        <a
-                                            href='https://docs.google.com/spreadsheets/d/13FCaN0M1dqTz1knbTsr01N7daFAOmLud1C37i5DHBsI/edit?usp=sharing'
-                                            rel='noreferrer'
-                                            target='_blank'
-                                            className='inline font-semibold hover:underline'
-                                        >
-                                            here
-                                        </a>
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                    <SubmitButton>
-                        <a
-                            href='https://forms.gle/F4DcugbRRmRraMVz7'
-                            target='_blank'
-                            rel='noreferrer'
-                        >
-                            Submit Assignment
-                        </a>
-                    </SubmitButton>
-                </div>
-            </div>
+            
         </div>
     );
 };

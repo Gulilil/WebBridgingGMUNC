@@ -80,6 +80,15 @@ const QuestDropdownMenu = ({ open, close }) => {
                         Quest 1
                     </Link>
                 </li>
+                <li>
+                    <Link
+                        to='/quests/quest2'
+                        className='block text-xl font-semibold px-4 py-4 hover:bg-[#b3541e] hover:text-white '
+                        onClick={close}
+                    >
+                        Quest 2
+                    </Link>
+                </li>
             </ul>
         </div>
     );
