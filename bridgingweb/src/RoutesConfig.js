@@ -10,6 +10,8 @@ import Quest2 from './components/pages/quests/Quest2';
 import Episode0 from './components/pages/episodes/Episode0';
 import Episode1 from './components/pages/episodes/Episode1';
 import Episode2 from './components/pages/episodes/Episode2';
+import Episode3 from './components/pages/episodes/Episode3';
+import Episode4 from './components/pages/episodes/Episode4';
 
 const RoutesConfig = () => {
     return (
@@ -19,6 +21,8 @@ const RoutesConfig = () => {
                 <Route path='episode0' element={<Episode0 />} />
                 <Route path='episode1' element={<Episode1 />} />
                 <Route path='episode2' element={<Episode2 />} />
+                <Route path='episode3' element={<Episode3 />} />
+                <Route path='episode4' element={<Episode4 />} />
             </Route>
             <Route path='/quests' element={<Quests />}>
                 <Route path='quest0' element={<Quest0 />} />

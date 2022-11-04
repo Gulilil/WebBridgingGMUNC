@@ -89,6 +89,24 @@ const EpsDropdownMenu = ({ open, close }) => {
                         Episode 2
                     </Link>
                 </li>
+                <li>
+                    <Link
+                        to='/episodes/episode3'
+                        className='block text-xl font-semibold px-4 py-4 hover:bg-[#b3541e] hover:text-white '
+                        onClick={close}
+                    >
+                        Episode 3
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to='/episodes/episode4'
+                        className='block text-xl font-semibold px-4 py-4 hover:bg-[#b3541e] hover:text-white '
+                        onClick={close}
+                    >
+                        Episode 4
+                    </Link>
+                </li>
             </ul>
         </div>
     );
