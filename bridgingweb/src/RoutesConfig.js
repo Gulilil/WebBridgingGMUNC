@@ -12,6 +12,7 @@ import Episode1 from './components/pages/episodes/Episode1';
 import Episode2 from './components/pages/episodes/Episode2';
 import Episode3 from './components/pages/episodes/Episode3';
 import Episode4 from './components/pages/episodes/Episode4';
+import Episode5 from './components/pages/episodes/Episode5';
 
 const RoutesConfig = () => {
     return (
@@ -23,6 +24,7 @@ const RoutesConfig = () => {
                 <Route path='episode2' element={<Episode2 />} />
                 <Route path='episode3' element={<Episode3 />} />
                 <Route path='episode4' element={<Episode4 />} />
+                <Route path='episode5' element={<Episode5 />} />
             </Route>
             <Route path='/quests' element={<Quests />}>
                 <Route path='quest0' element={<Quest0 />} />
